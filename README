@@ -1,0 +1,9 @@
+Benford's Law for Splunk by Marinus van Aswegen (mvanaswegen AT gmail.com) v0.1
+
+inspired by Christian S. Perone (christian.perone AT gmail.com) 
+
+Examples
+
+  | benford field=value | table digit value benford
+  | benford field=value digit=2 | table digit value benford 
+
